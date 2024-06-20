@@ -10,8 +10,8 @@ public usuario(String nombre,String apellido,String correo,char rol){
     this.rol=rol;
     
 }
-public String getNombre(){return this.nombre;}
-public void setNombre(String nombre){this.nombre=nombre;}
+public String getnombre(){return this.nombre;}
+public void setnombre(String nombre){this.nombre=nombre;}
 public void setApellido(String apellido){this.apellido=apellido;}
 public String getApellido(){return this.apellido;}
 public String getCorreo(){return this.correo;}
