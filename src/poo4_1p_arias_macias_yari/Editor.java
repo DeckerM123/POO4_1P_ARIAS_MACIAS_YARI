@@ -23,11 +23,11 @@ public class Editor extends Usuario{
         this.nombreJournal = nombreJournal;
     }
     
-     public String getcontrasena() {
+     public String getContrasena() {
         return contrasena;
     }
 
-    public void setcontrasena(String contrasena) {
+    public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
 
