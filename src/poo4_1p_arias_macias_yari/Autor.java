@@ -2,12 +2,9 @@
 package poo4_1p_arias_macias_yari;
 
 
-public class Autor {
+public class Autor extends Usuario{
     // Atributos
     private String codigoID;
-    private String nombre;
-    private String apellido;
-    private String correoElectronico;
     private String institucion;
     private String campoInvestigacion;
 
@@ -16,11 +13,8 @@ public class Autor {
     }
 
     // Constructor con parámetros
-    public Autor(String codigoID, String nombre, String apellido, String correoElectronico, String institucion, String campoInvestigacion) {
+    public Autor(String codigoID, String institucion, String campoInvestigacion) {
         this.codigoID = codigoID;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.correoElectronico = correoElectronico;
         this.institucion = institucion;
         this.campoInvestigacion = campoInvestigacion;
     }
@@ -32,30 +26,6 @@ public class Autor {
 
     public void setCodigoID(String codigoID) {
         this.codigoID = codigoID;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
-    public String getCorreoElectronico() {
-        return correoElectronico;
-    }
-
-    public void setCorreoElectronico(String correoElectronico) {
-        this.correoElectronico = correoElectronico;
     }
 
     public String getInstitucion() {
