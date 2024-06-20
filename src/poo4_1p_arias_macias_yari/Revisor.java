@@ -1,7 +1,7 @@
 public class Revisor extends Usuario{
      private String especialidad;
      private String contrasena;
-     private int nunArticulos;
+     private int numArticulos;
 
     // Constructores
     public Revisor(String nombre, String apellido, String correo, String user, String especialidad, String contrasena,int numArticulos){
@@ -20,19 +20,18 @@ public class Revisor extends Usuario{
         this.especialidad = especialidad;
     }
     
-     public String contrasena() {
+     public String getcontrasena() {
         return contrasena;
     }
 
-    public void contrasena(String contrasena) {
+    public void setcontrasena(String contrasena) {
         this.contrasena = contrasena;
     }
-    public String getnumArticulos() {
+    public int getnumArticulos() {
         return numArticulos;
     }
 
-    public void setnumArticulos(String numArticulos) {
+    public void setnumArticulos(int numArticulos) {
         this.numArticulos = numArticulos;
     }
 
-}
