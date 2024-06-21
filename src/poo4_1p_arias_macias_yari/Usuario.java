@@ -1,8 +1,8 @@
 public class usuario {
     protected String nombre;
-    private String apellido;
+    protected String apellido;
     protected String correo;
-    private char rol;
+    protected char rol;
 public usuario(String nombre,String apellido,String correo,char rol){
     this.nombre=nombre;
     this.apellido=apellido;
