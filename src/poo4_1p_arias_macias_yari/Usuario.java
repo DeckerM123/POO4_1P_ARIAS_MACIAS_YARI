@@ -1,7 +1,7 @@
 public class usuario {
-    private String nombre;
+    protected String nombre;
     private String apellido;
-    private String correo;
+    protected String correo;
     private char rol;
 public usuario(String nombre,String apellido,String correo,char rol){
     this.nombre=nombre;
