@@ -52,9 +52,8 @@ public class Revisor extends Usuario {
      * Devuelve una representación en cadena del Revisor
      */
     public String toString() {
-        return String.format("Revisor: %s %s\nCorreo: %s\n" +
-                "Especialidad: %s\nArtículos revisados: %d",
-                nombre, apellido, correo, especialidad, articulosRevisados);
+        return "Revisor:"nombre+apellido+"\nCorreo: " + correo+"\nEspecialidad: "+ especialidad
+                "\nArtículos revisados:"+articulosRevisados;
     }
 
     @Override
