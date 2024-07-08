@@ -1,4 +1,0 @@
-Steven,password,E,E001
-Decker,password,R,R032
-editorR,password,E,E011
-revisorR,password,R,R011
