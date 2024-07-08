@@ -1,13 +1,13 @@
-package main.java.com.revista.entidad;
+package main.java.com.Proyecto.Users;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-import main.java.com.revista.Sistema;
-import main.java.com.revista.util.Persistencia;
-import main.java.com.revista.util.Archivos;
-import main.java.com.revista.util.Correo;
-import main.java.com.revista.util.Revisar;
+import main.java.com.Proyecto.Sistema;
+import main.java.com.Proyecto.Manejo.Archivo;
+import main.java.com.Proyecto.Manejo.Correo;
+import main.java.com.Proyecto.Manejo.ManejarArchivo;
+import main.java.com.Proyecto.Manejo.Revisar;
 
 public class Editor extends Usuario {
     private String journal;

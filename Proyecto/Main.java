@@ -1,17 +1,17 @@
-package main.java.com.revista;
+package main.java.com.Proyecto;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import main.java.com.revista.entidad.Articulo;
-import main.java.com.revista.entidad.Editor;
-import main.java.com.revista.entidad.Revisor;
-import main.java.com.revista.entidad.Usuario;
-import main.java.com.revista.util.Archivos;
-import main.java.com.revista.util.Autenticacion;
-import main.java.com.revista.util.Revisar;
-import main.java.com.revista.util.Persistencia;
+import main.java.com.Proyecto.Manejo.Archivo;
+import main.java.com.Proyecto.Manejo.Verificar;
+import main.java.com.Proyecto.Manejo.ManejarArchivo;
+import main.java.com.Proyecto.Manejo.Revisar;
+import main.java.com.Proyecto.Users.Articulo;
+import main.java.com.Proyecto.Users.Editor;
+import main.java.com.Proyecto.Users.Revisor;
+import main.java.com.Proyecto.Users.Usuario;
 
 public class Main {
 

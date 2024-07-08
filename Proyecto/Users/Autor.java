@@ -1,9 +1,10 @@
-package main.java.com.revista.entidad;
+package main.java.com.Proyecto.Users;
 
 import java.io.IOException;
 
-import main.java.com.revista.util.Persistencia;
-import main.java.com.revista.util.Archivos;
+import main.java.com.Proyecto.Manejo.Archivo;
+import main.java.com.Proyecto.Manejo.ManejarArchivo;
+
 
 public class Autor {
     private String codigo;

@@ -1,4 +1,5 @@
-package main.java.com.revista.entidad;
+package main.java.com.Proyecto.Users;
+
 
 public abstract class Usuario {
     protected String codigo;

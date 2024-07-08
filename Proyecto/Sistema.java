@@ -1,15 +1,15 @@
-package main.java.com.revista;
+package main.java.com.Proyecto;
 
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import main.java.com.revista.entidad.Articulo;
-import main.java.com.revista.entidad.Autor;
-import main.java.com.revista.entidad.Revisor;
-import main.java.com.revista.util.Persistencia;
-import main.java.com.revista.util.Revisar;
-import main.java.com.revista.util.Archivos;
+import main.java.com.Proyecto.Manejo.Archivo;
+import main.java.com.Proyecto.Manejo.ManejarArchivo;
+import main.java.com.Proyecto.Manejo.Revisar;
+import main.java.com.Proyecto.Users.Articulo;
+import main.java.com.Proyecto.Users.Autor;
+import main.java.com.Proyecto.Users.Revisor;
 
 public abstract class Sistema {
     public static final Scanner sc = new Scanner(System.in);    
