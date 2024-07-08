@@ -1,0 +1,2 @@
+R001,Steven,Yari,stevenyb2003@gmail.com,Mecatronica,3
+R032,DecKEr,Macias,decma64@gmail.com,Telematica,2
