@@ -82,8 +82,8 @@ public class Autor {
      * Devuelve una representación en cadena del autor
      */
     public String toString() {
-        return String.format("%s,%s,%s,%s,%s,%s", codigo, nombre, apellido, correo, institucion, campoInvestigacion);
-    }
+    return codigo + "," + nombre + "," + apellido + "," + correo + "," + institucion + "," + campoInvestigacion;
+}
 
     /**
      * Registra el artículo en el archivo de artículos
