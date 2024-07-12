@@ -1,4 +1,4 @@
-package main.java.com.Proyecto.Users;
+package main.java.com.Proyecto.Usuarios;
 
 public abstract class Usuario {
     protected String codigo;
