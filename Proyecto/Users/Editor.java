@@ -3,7 +3,7 @@ package main.java.com.Proyecto.Users;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import main.java.com.Proyecto.Manejo.ManejoDatos;
+import main.java.com.Proyecto.manejo.ManejoDatos;
 import main.java.com.Proyecto.Sistema;
 import main.java.com.Proyecto.manejo.Correo;
 import main.java.com.Proyecto.manejo.EstadoRevision;
