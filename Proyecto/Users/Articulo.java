@@ -33,6 +33,7 @@ public class Articulo {
     
     /** 
      * @return String
+     *
      */
 
      public String getTitulo() {
@@ -83,6 +84,7 @@ public class Articulo {
         this.palabrasClave = palabrasClave;
     }
 
+    
     @Override
     /**
      * Devuelve un numero como codigo basado en el título y resumen del artículo
@@ -96,6 +98,7 @@ public class Articulo {
         return result;
     }
 
+    
     @Override
     /**
      * Devuelve una representación en cadena del artículo
