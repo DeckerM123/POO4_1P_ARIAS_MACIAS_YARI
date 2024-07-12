@@ -1,4 +1,4 @@
-package main.java.com.Proyecto.MANEJO;
+package main.java.com.Proyecto.manejo;
 
 /**
  * Define las rutas de los archivos de texto
