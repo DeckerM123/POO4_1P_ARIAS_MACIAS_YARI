@@ -25,8 +25,7 @@ public class Main {
     /**
      * Muestra el menú principal del sistema
      * El usuario podrá someter un artículo o iniciar sesión
-     * Si el usuario inicia sesión como revisor o editor,
-     * se mostrará el menú correspondiente
+     * Si el usuario podra iniciar como revisor o editor
      * Si el usuario no elige ninguna opción, el programa termina
      * Si el usuario elige una opción inválida, el programa termina
      */
