@@ -40,7 +40,7 @@ public abstract class Sistema {
         String resumen = sc.nextLine().strip();
         System.out.print("Contenido: ");
         String contenido = sc.nextLine().strip();
-        System.out.print("Palabras clave: (separadas por coma)\n");
+        System.out.print("\nSepare con coma" +"\nPalabras clave:\n");
         String keywords = sc.nextLine().strip();
         String[] palabrasClave = keywords.split(",");
         Articulo articulo = new Articulo(titulo, resumen, contenido, palabrasClave, autor.getCodigo());
