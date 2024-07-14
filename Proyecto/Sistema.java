@@ -15,8 +15,8 @@ public abstract class Sistema {
     public static final Scanner sc = new Scanner(System.in);    
 
     /**
-     * Registra un autor y un artículo en el sistema
-     * Si el registro es exitoso, se pregunta si se desea enviar el artículo a revisión
+     * Registra al autor y el articulo al sistema
+     * De ser exitoso, preguntara si desea enviar o no a revision
      */
     public static void someterArticulo() {
         System.out.println("Datos del Autor");
@@ -64,9 +64,8 @@ public abstract class Sistema {
 
     /**
      * Asigna dos revisores al artículo y envía un email a cada uno
-     * Se prioriza a los revisores relacionados con la especialidad del autor
-     * Si no hay suficientes revisores con la especialidad,
-     * se asignan los primeros disponibles
+     * Se envia a los revisores relacionados con la especialidad del autor
+     * Si no hay suficientes, se asignan los primeros disponibles
      * @param especialidad Especialidad del autor del artículo
      * @param articulo Artículo a enviar a revisión
      */
