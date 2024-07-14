@@ -47,7 +47,7 @@ public abstract class Sistema {
         boolean sometido = autor.someterArticulo(articulo);
 
         if (sometido) {
-            System.out.println("\n Artículo registrado con éxito");
+            System.out.println("\nArtículo registrado con éxito");
             System.out.println("¿Desea enviarlo a revisión? S\\N");
             String respuesta = sc.nextLine().strip();
             if (respuesta.equalsIgnoreCase("S")) {
