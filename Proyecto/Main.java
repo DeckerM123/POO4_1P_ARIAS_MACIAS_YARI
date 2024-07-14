@@ -58,9 +58,7 @@ public class Main {
 
     /**
      * Muestra el menú de opciones para el revisor que inició sesión
-     * El revisor podrá ver los artículos pendientes de revisar y decidir sobre
-     * ellos
-     * 
+     * El revisor podrá ver los artículos pendientes de revisar y decidir
      * @param revisor Revisor que inició sesión
      */
     public static void mostrarMenu(Revisor revisor) {
