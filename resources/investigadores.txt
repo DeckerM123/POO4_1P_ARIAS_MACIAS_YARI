@@ -1,9 +1,2 @@
 
 112800991,Decker,Macias,demamaci@espol.edu.ec,ESPOL,Telematica
-647167918,DECKER,MACIAS,DECMA64@GMAIL.COM,ESPOL,COMPUTACION
--1077676822,Decker,Macias,desds,esdsd,dsds
-98664481,dec,dec,dec,dec,dec
--1077691937,Decker,Macias,decma,ESPOL,ESPOL
-98664481,dec,dec,dec,dec,dec
-98664481,dec,dec,dec,deck,deck
-98664481,dec,dec,dec,dec,dec
