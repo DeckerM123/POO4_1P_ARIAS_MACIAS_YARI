@@ -3,4 +3,4 @@ StevenR1,password,R,R001
 StevenE2,password,E,E002
 DeckerR2,password,R,R002
 WentlandR3,password,R,R003
-WentlandE3,password,E,E003
+Wentland,password,E,E003
