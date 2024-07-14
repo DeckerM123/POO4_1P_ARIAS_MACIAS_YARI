@@ -31,7 +31,7 @@ public class Main {
      * Si el usuario elige una opción inválida, el programa termina
      */
     public static void menuPrincipal() {
-        System.out.print("Si desea salir pulse ENTER\n"+
+        System.out.print("\nSi desea salir pulse ENTER\n"+
             "------- Bienvenido -------\n"+
                 "1. Someter escrito\n" +
                         "2. Iniciar sesión\n" +
