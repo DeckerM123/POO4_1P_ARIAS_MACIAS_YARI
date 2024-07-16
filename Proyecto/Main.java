@@ -107,7 +107,7 @@ public class Main {
     public static void mostrarMenu(Editor editor) {
         try {
             // Obtén la descripción del estado de revisión
-            String estadoRevisado = EstadoRevision.REVISADO.getDescripcion();
+            String estadoRevisado = EstadoRevision.REVISADO.name();
     
             // Pasa la descripción (cadena) al método busquedaAvanzada
             ArrayList<String> revisiones = ManejoDatos.busquedaAvanzada(Archivo.REVISIONES, estadoRevisado);
